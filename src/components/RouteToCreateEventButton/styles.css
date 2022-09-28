@@ -1,0 +1,20 @@
+/* button styles */
+.route-to-create-event-button {
+    width: 320px;
+    height: 55px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .route-to-create-event-button {
+        width: 187px;
+        height: 55px;
+        background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+

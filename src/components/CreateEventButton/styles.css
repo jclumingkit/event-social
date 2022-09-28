@@ -1,0 +1,9 @@
+/* button styles */
+.create-event-button {
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    font-size: 20px;
+    font-weight: 700;
+    height: 55px;
+}
+
+

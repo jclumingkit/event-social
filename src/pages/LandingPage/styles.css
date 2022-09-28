@@ -1,0 +1,41 @@
+/*  image styles */
+.banner-img {
+    filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.05));
+}
+
+
+/* text styles */
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #240D57;
+}
+
+.banner-title span {
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.banner-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4F4F4F;
+}
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-subtitle {
+        font-size: 16px;
+    }
+}
+
